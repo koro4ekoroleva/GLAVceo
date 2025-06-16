@@ -9,6 +9,9 @@ ul, li {
 .hero-section {
     margin-top: 15px;
 }
+.hero-text {
+    padding-left: 0;
+}
 .org-name {
     font-size: 18px;
     font-weight: 500;
@@ -21,6 +24,8 @@ ul, li {
 .header-title {
     font-weight: 600;
     margin-bottom: 5px;
+    padding-left: 0;
+    margin-left: 0;
 }
 .header-contact {
     margin-bottom: 5px;
@@ -35,9 +40,12 @@ ul, li {
 }
 .nav-link {
     color: rgba(255, 255, 255, 0.8);
-    margin: 0 10px;
+    padding: 0 10px;
     font-weight: 500;
 }
+.nav-link#home {
+    padding-left: 0;
+} 
 .nav-link:hover {
     color: white;
 }
@@ -47,7 +55,7 @@ ul, li {
         text-align: center;
     }
     .org-name {
-        font-size: 16px;
+        font-size: 20px;
     }
 }
 
@@ -84,6 +92,10 @@ ul, li {
 .navbar-toggler-icon {
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.8%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
+.navbar-nav {
+    padding-left: 0;
+}
+
 .consult-btn {
     position: fixed;
     right: 30px;
